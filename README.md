@@ -1,11 +1,11 @@
 
 # TREINAMENTO PSG - WMALDONADO
 
-# CRUD-JAVA-WEB-POO-BD
+## CRUD-JAVA-WEB-POO-BD
 
 Projeto: Cadastro de Login com persistencia de dados no Mysql
 
-CRUD Java Web
+CRUD:
 
 - Java Web
 - Maven
@@ -22,8 +22,8 @@ CRUD Java Web
 - Baixe o [Java 8](https://www.java.com/pt_BR/download/).
 - Baixe o [Eclipse IDE](https://www.eclipse.org/downloads/).
 - Baixe o [Tomcat 8.5](https://tomcat.apache.org/download-80.cgi).
-- Baixe o SQL (Você pode baixar o [MySQL Workbench](https://dev.mysql.com/downloads/workbench/), ou qualquer outro serviço SQL).
-- 
+- Baixe o [MySQL](https://dev.mysql.com/downloads/workbench/).
+
 ### Configuração e instalação
 - Java
   - Instalação:
@@ -44,11 +44,11 @@ CRUD Java Web
           - Selecione "Tomcat v8.5 Server" e clique em Next
             - Selecione a pasta em que você baixou o "Tomcat 8.5"
             - Selecione o JRE como: jre_1.8.0_xxx e clique em "Finish"
-- SQL
+- MySQL
   - Instalação:
     - Instale a aplicação normalmente
   - Configuração:
-    - Configure a porta do SQL como padrão (3306)
+    - Configure a porta do MySQL como padrão (3306)
     
 ### Uso da aplicação
 Com o Eclipse rodando e o projeto selecionado, espere que o Maven baixe todas as dependências do projeto, logo após, verifique se o SQL está rodando na porta 3306
